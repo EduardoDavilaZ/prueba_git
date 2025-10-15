@@ -1,0 +1,40 @@
+:root {
+    --color1: #02689d;
+    --color2: #127dbe;
+    --color3: #282828;
+    --color4: #ffffff;
+    --color: #394f66;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color4);
+}
+
+body{
+    background-color: var(--color3);
+}
+
+h1{
+    text-align: center;
+    font-size: 5vw;
+    margin: 2%;
+}
+
+main{
+    width: 50%;
+    background-color: var(--color1);
+    padding: 2%;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+section{
+    text-align: center;
+}
+
+p {
+    font-size: 2.5vw;
+    margin-left: 2%;
+}
